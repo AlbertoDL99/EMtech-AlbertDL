@@ -1426,3 +1426,33 @@ lifestore_searches = [
     [1032, 95],
     [1033, 95]
 ]
+
+
+multilinea= """
+Hola, bienvenido al programa de análisis de datos de Lifestore 
+
+A continuación deberás ingresar tu nombre y contraseña para poder visualizar los datos
+
+"""
+print(multilinea)
+#Login de usuario para verificar que tiene permiso
+
+nombre_de_usuario = input('Ingresa usuario:')
+contraseña = input('Ingresa contraseña:')
+
+if nombre_de_usuario and contraseña == "Jorge Méndez":
+  print("Bienvenido gerente Méndez")
+else: 
+  print("Lo sentimos, acceso no concedido"
+ 
+
+
+n_veces = 0
+
+while producto[4] in lifestore_products >= "100" and n_veces <50:
+  print("producto[4]")
+  n_veces += 1
+  print n_veces
+
+print("Fin del listado")
+
